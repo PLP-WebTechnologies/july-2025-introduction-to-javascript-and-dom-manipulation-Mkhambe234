@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Fundamentals Playground</title>
+  <link rel="stylesheet" href=style.css>
+
+</head>
+<body>
+  <header>
+    <h1>JavaScript Playground</h1>
+    <p>Let us explore variables, conditionals, functions, loops & DOM manipulation</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Variables & Conditionals -->
+    <section>
+      <h2>1. Variables & Conditionals</h2>
+      <input type="number" id="ageInput" placeholder="Enter your age">
+      <button onclick="checkAge()">Check Eligibility</button>
+      <div id="ageOutput" class="output"></div>
+    </section>
+
+    <!-- Functions -->
+    <section>
+      <h2>2. Functions</h2>
+      <input type="number" id="num1" placeholder="Enter first number">
+      <input type="number" id="num2" placeholder="Enter second number">
+      <button onclick="calculateSum()">Calculate Sum</button>
+      <div id="sumOutput" class="output"></div>
+    </section>
+
+    <!-- Loops -->
+    <section>
+      <h2>3. Loops</h2>
+      <button onclick="listNumbers()">Show Numbers 1–10</button>
+      <div id="loopOutput" class="output"></div>
+    </section>
+
+    <!-- DOM Manipulation -->
+    <section>
+      <h2>4. DOM Manipulation</h2>
+      <button onclick="changeColor()">Change Background Color</button>
+      <div id="colorOutput" class="output">Click button to change color</div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
